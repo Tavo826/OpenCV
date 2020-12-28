@@ -20,7 +20,7 @@ for nameDir in peopleList:
 
     for fileName in os.listdir(personPath):
         #Leyendo las imágenes
-        #Eqiquetas
+        #Etiquetas
         labels.append(label)
         #Agregando las imágenes en escala de grises
         facesData.append(cv2.imread(personPath + '/' + fileName, 0))

@@ -6,7 +6,7 @@ import imutils
 #emotionName = 'Felicidad'
 #emotionName = 'Sorpresa'
 emotionName = 'Tristeza'
-dataPath = '//home/tavo/Documentos/OpenCV/ReconocimientoFacial/Emociones/Data'
+dataPath = '/home/tavo/Documentos/OpenCV/ReconocimientoFacial/Emociones/Data'
 videoPath = dataPath + '/' + emotionName
 
 if not os.path.exists(videoPath):
